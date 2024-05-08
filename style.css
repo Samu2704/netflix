@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+}
+
+
+header .d-flex{
+    align-items: center;
+    
+}
+header div .d-flex p{
+    margin-top: 7px;
+    padding-top: 7px;
+    font-size: x-small;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header svg{
+    width: 15px;
+    height: 15px;
+}
+    
+
+
+header .d-flex svg + img{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+     
+}
+header div .dropdown{
+    background-color: black;
+    color: rgb(232, 224, 224);
+    height: 10px;
+    padding-bottom: 30px;
+}
+.btn.dropdown-toggle{
+    color: white;
+}
+header .dropdown-menu{
+color: white;
+}
+
+nav.navbar a{
+    color: white;
+    font-size: x-small;
+}
+img{
+    width: 80px;
+}
+svg + p {
+    color: rgb(246, 246, 246);
+    display: inline-block;
+}
+svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    
+}
+.sec1 svg{
+    width: 15px;
+    height: 15px;
+    border: solid white 1px;
+}
+.sec1{
+    padding-bottom: 10px;
+}
+h1{
+    display: inline-block;
+   margin-right: 40px;
+    font-size: 30px;
+    color: white
+    ;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown button{
+    
+    font-size: small;
+}
+.sec1{
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .row{
+        flex-wrap: nowrap;
+    }
+
+section button{
+    border: solid white 1px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+.sec2 img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.sec3 img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.sec4 img{
+    width: 100%;
+}
+
+
+footer{
+    background-color: black;
+}
+table{
+    display: flex;
+    text-align: start;
+}
+
+tbody{
+    margin-right: 60px;
+    font-size:x-small;
+    color: rgb(110, 102, 102);
+    margin-right: 90px;
+    
+}
+.superfooter{
+    margin-left: 25%;
+    padding-bottom: 5px;
+    padding-top: 90px;
+}
+footer svg{
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+footer button{
+    color: rgb(102, 91, 91);
+    background-color: black;
+    border: solid rgb(102, 91, 91) 1px;
+    font-size: smaller;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer button + p{
+    color:rgb(102, 91, 91);
+    font-size: x-small;
+    
+}
+
+.col-lg-2:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*.col-lg-2{
+    overflow: hidden;
+     position:relative; 
+
+}
+.img{
+top: 0%;
+left: 0%;
+ transition:all  2s;
+  position: absolute ;
+}
+
+.col-lg-2 img:hover{
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    scale: 1;
+}
